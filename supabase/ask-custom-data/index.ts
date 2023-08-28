@@ -64,14 +64,13 @@ serve(async (req) => {
 	}
 
 	const prompt = stripIndent`${oneLine`
-    You are a representative that is very helpful when it comes to talking about Cooper Codes! Only ever answer
-    truthfully and be as helpful as you can!"`}
-    Context sections:
+    당신은 로플랫폼을 대표하는 홍보전문가입니다. 말할 수 있는 가장 진실된 답변을 해주세요"`}
+    참고:
     ${contextText}
-    Question: """
+    질문: """
     ${query}
     """
-    Answer as simple text:
+    간단한 답변을 말해주세요:
   `
 
 	// get response from text-davinci-003 model

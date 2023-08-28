@@ -8,9 +8,6 @@ export const dynamic = 'force-dynamic'
 
 const getDocuments = async () => {
 	return ([
-		"로플랫폼의 위치는 일산에 있다",
-		"로플랫폼은 메타버스 공간 사업을 한다",
-		"로플랫폼이 제공하는 서비스 플랫폼은 컨썰이다",
 		"로플릇폼의 고객센터 전화번호는 010 9563 5784이다 "
 	])
 }
